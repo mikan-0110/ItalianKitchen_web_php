@@ -1,4 +1,3 @@
-<!-- http://localhost:8080/ItalianKitchen/confirmation.php -->
 <!DOCTYPE html>
 <html>
   <head>
