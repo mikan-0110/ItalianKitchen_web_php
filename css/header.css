@@ -1,0 +1,144 @@
+/* top.htmlのheaderのメインタイトル */
+.mainVisual{
+    background-image: url(../img/top_main_visual.png);
+    background-size: cover;
+    background-position: center center;
+    min-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    min-height: 690px;
+    display: flex;
+    align-items: center;
+}
+.mainTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    min-width: 800px;
+    width: 100%;
+    margin: auto;
+    height: 126px;
+    color: #fff;
+    font-family: "Yu Mincho";
+}
+.mainTitle img{
+    padding-right: 20px;
+}
+.mainTitle h1{
+    font-size: 42px;
+}
+.mainTitle p{
+    font-size: 24px;
+}
+
+
+
+/* top.html以外のナビゲーションのcss */
+.navigationMain{
+    width: 750px;
+    display: flex;
+}
+
+
+
+
+/* ナビゲーションのcss */
+.navigation{
+    min-width: 800px;
+    height: 80px;
+    background-color: #EEEEEE;
+    text-align: center;
+}
+.navigation ul{
+    width: 800px;
+    margin: auto;
+    display: flex;
+}
+.navigation div{
+    height: 40px;
+    margin-top: 20px;
+    width: 149px;
+}
+.navigationBorder{
+    border-right: solid 1px #999999;
+}
+.navigation a{
+    text-decoration: none;
+}
+.navigationEnglish{
+    font-size: 18px;
+    font-family: "Yu Mincho";
+    color: #9E9764;
+    text-align: center;
+    justify-content: center;
+}
+.navigationEnglish :not(navFaq){
+    padding-bottom: 5px;
+}
+.navigationJapanese{
+    font-size: 12px;
+    font-family: "Yu Mincho";
+    color: #555555;
+    text-align: center;
+}
+.navFaq{
+    width: 22px;
+    height: 22px;
+    background-color: #DDDDDD;
+    border-radius: 50%;
+    margin: auto;
+}
+
+
+
+
+
+
+/* top.html以外のheaderのショップアイコン */
+.mainHeader{
+    display: flex;
+    min-width: 800px;
+    height: 80px;
+    background-color: #EEEEEE;
+    align-items: center;
+    justify-content: center;
+    padding-left: 50px;
+}
+.shopIcon{
+    display: flex;
+    background-color: #888888;
+    width: 260px;
+    height: 63px;
+    align-items: center;
+    justify-content: center;
+}
+.shopIcon img{
+    width: 48px;
+    height: 32px;
+}
+.shopIcon div{
+    display: flex;
+    padding-left: 10px;
+}
+.shopIcon  a{
+    text-decoration: none;
+}
+.shopIcon h1{
+    font-size: 22px;
+    font-family: "Yu Mincho";
+    color: #fff;
+}
+.shopIcon p{
+    font-size: 12px;
+    font-family: "Yu Mincho";
+    color: #fff;
+}
+
+
+
+/* footerのbodyに背景でオレンジが入っているのでmainの背景を白にするcss */
+.mainSection{
+    background-color: #fff;
+}

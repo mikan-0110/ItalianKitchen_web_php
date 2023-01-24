@@ -1,0 +1,95 @@
+.contactMain{
+    color: #666666;
+    font-family: "Yu Mincho";
+    min-width: 1010px;
+    margin: auto;
+    width: 100%;
+    padding-bottom: 90px;
+}
+.mainTitle_contact{
+    font-size: 36px;
+    padding-top: 90px;
+    text-align: center;
+    font-weight: normal;
+}
+.mainTitle_contactjp{
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 72px;
+}
+.contactForm{
+    width: 890px;
+    height: 770px;
+    margin: auto;
+    border: solid 1px #CCCCCC;
+}
+.contactForm_explanation{
+    text-align: center;
+    padding-top: 25px;
+    font-size: 16px;
+    line-height: 26px;
+}
+.contactForm_caution{
+    text-align: center;
+    padding-top: 28px;
+    font-size: 16px;
+    line-height: 26px;
+}
+.formCaution{
+    padding-top: 0px;
+}
+.contactForm_form{
+    margin: 40px auto 15px auto;
+    width: 670px;
+}
+.contactForm_formName_content{
+    padding-bottom: 25px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.contactForm_form ul{
+    padding-bottom: 25px;
+    list-style: none;
+    display: flex;
+    justify-content: right;
+}
+.contactForm_formName{
+    font-size: 24px;
+    font-family: "游明朝";
+    font-weight: normal;
+    padding-right: 18px;
+}
+.contactForm_formText input{
+    width: 432px;
+    height: 40px;
+    background-color: #EEEEEE;
+    border: none;
+    font-size: 16px;
+    font-family: "游明朝";
+}
+.contactForm_formText textarea{
+    width: 432px;
+    height: 249px;
+    background-color: #EEEEEE;
+    border: none;
+    resize: none;
+}
+.contactForm_submit{
+    text-align: center;
+    padding-top: 30px;
+}
+.contactForm_submit input{
+    width: 125px;
+    height: 40px;
+    background-color: #999999;
+    border: none;
+    font-size: 16px;
+    font-family: "游明朝";
+    font-weight: bold;
+    color: #fff;
+    justify-content: center;
+}
+
+

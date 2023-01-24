@@ -1,0 +1,28 @@
+/* header.cssにmainのbackground-colorがある */
+body{
+    background-color: #E88C4D;
+}
+.footerLine{
+    width: 100%;
+    min-width: 800px;
+    margin: auto;
+    height: 8px;
+    background-image: url("../img/top_footer_tri_bg.png");
+    background-repeat: repeat-x;
+}
+.footerMain{
+    display: flex;
+    width: 800px;
+    margin: auto;
+    justify-content: space-around;
+    padding-top: 14px;
+    font-family: "Yu Mincho";
+    font-size: 14px;
+}
+.footerCopyright{
+    font-size: 12px;
+    font-family: "Yu Mincho";
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 14px;
+}
